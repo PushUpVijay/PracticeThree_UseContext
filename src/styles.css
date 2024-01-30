@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    margin: 20px;
+    padding: 0;
+}
+.panel-light,
+.panel-dark{
+    border: 1px solid black;
+    border-radius: 4px;
+    padding:20px;
+    
+    
+}
+.panel-light{
+    background-color: white;
+}
+.panel-dark{
+    background-color: black;
+}
+.button-light,
+.button-dark{
+    margin: 5px;
+    padding-right: 2px;
+}
+.button-dark{
+    background-color: rgb(148, 147, 147);
+}
